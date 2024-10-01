@@ -19,21 +19,22 @@ default: &default
 
 development:
   <<: *default
-  database: desafio4
+  database: basic_form_development
   username: postgres
-  password: Kronos92
-  host: localhost
+  password: Elziion11!!
+  host: 127.0.0.1
   port: 5432
 
 test:
   <<: *default
-  database: desafio4_test
+  database: basic_form_test
   username: postgres
-  password: Kronos92
-  host: localhost
+  password: Elziion11!!
+  host: 127.0.0.1
+
 
 production:
   <<: *default
-  database: desafio4_production
-  username: postgres
-  password: <%= ENV["desafio4_DATABASE_PASSWORD"] %>
+  database: basic_form_production
+  username: basic_form
+  password: <%= ENV["BASIC_FORM_DATABASE_PASSWORD"] %>

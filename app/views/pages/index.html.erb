@@ -1,2 +1,17 @@
-<h1>Pages#index</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+<div class="container">
+  <h1 class="text-center mb-4 mt-4">Personajes de Harry Potter</h1>
+
+  <div class="row pt-4">
+  <% @characters.each do |character| %>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 <%= "card-#{character.house.downcase}" %>">
+        <div class="card-body">
+          <h5 class="card-title"><%= character.name %></h5>
+          <p class="card-text">Locación: <%= character.location %></p>
+          <p class="card-text">Casa: <%= character.house %></p>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
+</div>

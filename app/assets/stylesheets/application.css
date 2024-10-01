@@ -13,3 +13,43 @@
  *= require_tree .
  *= require_self
  */
+
+
+ body {
+    background-color: #f4f4f9;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-gryffindor {
+    background-image: url('griffindor.jpg');
+    background-size: cover;
+    color: white;
+  }
+  
+  .card-slytherin {
+    background-image: url('slytherin.jpg');
+    background-size: cover;
+    color: white; 
+  }
+  
+  .card-hufflepuff {
+    background-image: url('hufflepuff.jpg');
+    background-size: cover;
+    color: white;
+  }
+  
+  .card-ravenclaw {
+    background-image: url('ravenclaw.jpg');
+    background-size: cover;
+    color: white;
+  }
+  
+  

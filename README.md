@@ -1,7 +1,7 @@
 # README
 ## Ejercicio Bootcamp Ruby on Rails Talento Digital - Inforcap
 
-### Cómo deployar unnn proyecto de Github usando Render
+### Cómo deployar un proyecto de Github usando Render
 
 ### Integrantes:
 

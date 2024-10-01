@@ -1,24 +1,19 @@
 # README
+## Ejercicio Bootcamp Ruby on Rails Talento Digital - Inforcap
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Integrantes:
 
-Things you may want to cover:
+1. Sion Maldonado
 
-* Ruby version
+2. Ricardo Gallegos
 
-* System dependencies
+---
 
-* Configuration
 
-* Database creation
+* Ruby version: 3.3.3
 
-* Database initialization
+* Rails version: 7.2.1
 
-* How to run the test suite
+* Faker version: 3.4
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Database: PostgreSQL
